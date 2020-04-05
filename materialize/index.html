@@ -1,0 +1,312 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazeez Resturant</title>
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <style>
+     h4{
+       text-decoration: underline;
+     }
+     .card{
+       height: 410px;
+     }
+     .boxes{
+       margin-top: 30px;
+     }
+     .container a {
+      margin-right: 16px !important;
+     }
+     h1{
+       text-decoration: underline;
+       padding-top: 20px;
+     }
+     .text{
+       position:relative;
+       left: 60px;
+       /* top: 40px; */
+       z-index: 1;
+     }
+     .showcase ul {
+       margin: 0 !important;
+     }
+     .card-panel{
+       height: 310px;
+     }
+   </style>
+</head>
+<body>
+
+  <!-- navbar  -->
+  <div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper teal">
+      <a href="#!" class="brand-logo center">Lazeez</a>
+      <!-- mobile menu navbar triggered  -->
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#boxes">Offers</a></li>
+        <li><a href="#showcase">Our speciality</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <form>
+          <div class="input-field right">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </ul>
+    </div>
+  </nav>
+ </div>
+ <!-- mobile menu navbar  -->
+ <ul class="sidenav" id="mobile-demo">
+  <li><a href="#boxes">Offers</a></li>
+  <li><a href="#showcase">Our speciality</a></li>
+  <li><a href="#servives">Services</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+</ul>
+
+<!-- slider -->
+<section id="Home" class="slider scrollspy">
+  <ul class="slides">
+    <li>
+      <img src="/img/tandoori-chicken.jpg" alt="">
+      <div class="caption center-align">
+        <h2>Take Your tasty food at Cheap Price</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Take your Tasty food at cheap price</h5>
+        <a href="#" class="btn btn-large">Learn More</a>
+      </div>
+    </li>
+    <li>
+      <img src="/img/curry-delicious.jpg" alt="">
+      <div class="caption left-align">
+        <h2>We Work With All Budgets</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">The tasty food are available at all buget</h5>
+        <a href="#" class="btn btn-large">Learn More</a>
+      </div>
+    </li>
+    <li>
+      <img src="./img/The_Gujarati_Thali.jpg" alt="">
+      <div class="caption right-align">
+        <h2>We offer you breakfast and wifi </h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">We offer you healthy and tasty breakfast and wifi</h5>
+        <a href="#" class="btn btn-large">Learn More</a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- card  -->
+<section id="boxes" class="boxes black-text scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s10 m5 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/paul-hanaoka-HbyYFFokvm0-unsplash.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title"><h4 class="center-align">Order Online</h4></span>
+            <p class="flow-text">Availabe at 9AM-11PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s10 m5 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/david-holifield-kPxsqUGneXQ-unsplash.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title"><h4 class="center-align">Special Cake</h4></span>
+            <p class="flow-text">Every friday only on 999</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s10 m5 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/leo-roza-P_z_xlMGuEk-unsplash.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title"><h4 class="center-align">Fried Chicken</h4></span>
+            <p class="flow-text">50% off on every Wednesday</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="showcase"  class="showcase grey lighten-3 scrollspy">
+  <div class="container">
+    <h1 class="center-align">Our Best Food </h1>
+    <ul class="collection">
+      <li class="collection-item avatar">
+        <img src="img/one.png" alt="" class="circle">
+        <span class="title">panner kofta</span>
+        <p>price : 120</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="img/two.png" alt="" class="circle">
+        <span class="title">Chicken pyagi</span>
+        <p>price: 200</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="img/three.png" alt="" class="circle">
+        <span class="title">Modern Plate</span>
+        <p>price: 250</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="img/four.png" alt="" class="circle">
+        <span class="title">idli</span>
+        <p>price: 50</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+      <li class="collection-item avatar">
+        <img src="img/five.png" alt="" class="circle">
+        <span class="title">cheese bust pizza</span>
+        <p>price: 300</p>
+        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+      </li>
+    </ul>
+              
+  </div>
+</section>
+
+<!-- parallex  -->
+<div id="services" class="parallax-container valign-wrapper scrollspy">
+  <div class="parallax"><img src="img/brooke-lark-4J059aGa5s4-unsplash.jpg">
+    <div class="text white-text">
+      <h1>Free delivery</h1>
+      <h3>ordering Over 2000</h3>
+      <button class="btn waves-effect waves-light orange" type="submit" name="action">Order Now
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- cards -->
+<section class="section section-icons grey lighten-4 center scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">access_time</i>
+          <h3>fast delivery</h4>
+          <p>Our food give up you at your Location</p>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">free_breakfast</i>
+          <h3>fresh food</h3>
+          <p>We have fresh food</p>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">restaurant</i>
+          <h3>variety of dishes</h3>
+          <p>we have variety of dishes.</p>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">school</i>
+          <h3>good chef</h3>
+          <p>we have experienced chef and well behaved staff.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery  -->
+<section id="gallery" class="section section-gallery scrollspy">
+  <div class="container">
+    <h4 class="center">
+      <span class="teal-text">Photo </span> Gallery
+    </h4>
+    <div class="row">
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="./img/spencer-davis-o_XkavUaGEw-unsplash.jpg" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="./img/spencer-davis-QdU9lnBB5RQ-unsplash.jpg"  alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="./img/spencer-davis-qIionkVllq0-unsplash.jpg" alt="">
+      </div>
+      <div class="col s12 m3">
+        <img class="materialboxed responsive-img" src="./img/spencer-davis-o_XkavUaGEw-unsplash.jpg"  alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer  -->
+<footer class="page-footer black white-text">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Lazeez Resturant</h5>
+        <p class="grey-text text-lighten-4">chandni chock street <br> near Red fort <br> 
+        New Delhi 8000123</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">You can also follow us on social sites</h5>
+        <ul class="valign-wrapper">
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram fa-2x"></i></a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"> <i class="fab fa-facebook fa-2x"></i></a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"> <i class="fab fa-twitter fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2020 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- jquery cdn  -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>  
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.slider').slider({full_width: true});
+    $(".card").hover(function(){
+		$(this).toggleClass("z-depth-4");
+	});
+    $('.parallax').parallax();
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
+
+   // Material Boxed
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
+  });
+  </script>
+</body>
+</html>
